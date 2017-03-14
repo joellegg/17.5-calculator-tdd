@@ -10,7 +10,7 @@ describe('add', () => {
     isFunction(addition);
   });
   it('should return a number', () => {
-    isNumber(addition(['2', 'x', '2']));
+    isNumber(addition(['2', '+', '2']));
   });
  });
 });
