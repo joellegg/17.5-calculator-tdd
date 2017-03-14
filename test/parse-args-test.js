@@ -9,8 +9,8 @@ describe('parse-args', () => {
   it('should be a function', () => {
     isFunction(parseArgs);
   });
-  it('should return an array', () => {
-    isNumber(parseArgs('2x2'));
+  it('should return a number', () => {
+    isNumber(parseArgs(['2x2']));
   });
   // it('should contain an operator', () => {
   //   include(parseArgs('2x2'), 'x');
